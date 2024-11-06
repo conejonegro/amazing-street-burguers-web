@@ -1,0 +1,55 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Texto "AMAZING STREET" -->
+  <text x="200" y="170" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">
+    AMAZING
+  </text>
+  <text x="200" y="200" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="20" fill="#ffffff">
+    STREET
+  </text>
+  
+  <!-- Hamburguesa centrada -->
+  <g transform="translate(120, 160) scale(0.8)">
+    <!-- Pan superior -->
+    <path d="M 40 80 Q 100 60 160 80 Q 180 90 160 100 Q 100 120 40 100 Q 20 90 40 80" fill="#F4A460"/>
+    <!-- Sombra del pan superior -->
+    <path d="M 40 100 Q 100 120 160 100 Q 100 110 40 100" fill="#DEB887"/>
+    
+    <!-- Semillas de ajonjolí -->
+    <circle cx="60" cy="85" r="1.5" fill="#F5F5DC"/>
+    <circle cx="75" cy="82" r="1.5" fill="#F5F5DC"/>
+    <circle cx="90" cy="80" r="1.5" fill="#F5F5DC"/>
+    <circle cx="105" cy="79" r="1.5" fill="#F5F5DC"/>
+    <circle cx="120" cy="80" r="1.5" fill="#F5F5DC"/>
+    <circle cx="135" cy="82" r="1.5" fill="#F5F5DC"/>
+    <circle cx="150" cy="85" r="1.5" fill="#F5F5DC"/>
+    <circle cx="67" cy="92" r="1.5" fill="#F5F5DC"/>
+    <circle cx="82" cy="90" r="1.5" fill="#F5F5DC"/>
+    <circle cx="97" cy="89" r="1.5" fill="#F5F5DC"/>
+    <circle cx="112" cy="89" r="1.5" fill="#F5F5DC"/>
+    <circle cx="127" cy="90" r="1.5" fill="#F5F5DC"/>
+    <circle cx="142" cy="92" r="1.5" fill="#F5F5DC"/>
+    
+    <!-- Catsup escurriendo -->
+    <path d="M 145 95 Q 150 105 155 115 Q 157 120 160 125" stroke="#FF0000" stroke-width="4" fill="none"/>
+    <path d="M 155 115 Q 158 122 156 130" stroke="#FF0000" stroke-width="4" fill="none"/>
+    <path d="M 155 115 Q 152 122 150 128" stroke="#FF0000" stroke-width="4" fill="none"/>
+    
+    <!-- Gota de catsup -->
+    <path d="M 156 130 Q 158 135 156 138 Q 154 135 156 130" fill="#FF0000"/>
+    
+    <!-- Carne smash con bordes irregulares y crujientes -->
+    <path d="M 30 100 Q 100 90 170 100 Q 180 105 170 110 Q 100 130 30 110 Q 20 105 30 100" fill="#8B4513"/>
+    <!-- Textura crujiente de la carne -->
+    <path d="M 35 105 L 45 102 L 55 106 L 65 103 L 75 107 L 85 104 L 95 108 L 105 105 L 115 109 L 125 106 L 135 110 L 145 107 L 155 111 L 165 108" stroke="#5C2810" stroke-width="2" fill="none"/>
+    
+    <!-- Pan inferior -->
+    <path d="M 40 110 Q 100 130 160 110 Q 180 120 160 130 Q 100 150 40 130 Q 20 120 40 110" fill="#F4A460"/>
+    <!-- Sombra del pan inferior -->
+    <path d="M 40 130 Q 100 150 160 130 Q 100 140 40 130" fill="#DEB887"/>
+  </g>
+
+  <!-- Texto "BURGERS" -->
+  <text x="200" y="310" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="24" font-weight="bold" fill="#ffffff">
+    BURGERS
+  </text>
+</svg>

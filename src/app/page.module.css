@@ -26,6 +26,12 @@
     --button-secondary-hover: #1a1a1a;
   }
 }
+.logo__ASB{
+  width: 52%;
+    max-width: 100%;
+    aspect-ratio: initial !important;
+    height: auto;
+}
 
 .main {
   display: flex;

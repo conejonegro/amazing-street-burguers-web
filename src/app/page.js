@@ -4,6 +4,13 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.page}>
+      <Image
+              className={styles.logo__ASB}
+              src="/asb-logo-IA.svg"
+              alt="Vercel logomark"
+              width={200}
+              height={200}
+            />
       <main className={styles.main}>
         <ol>
           <li>
@@ -12,22 +19,8 @@ export default function Home() {
           <li>Descubre como estan hechas nuestras Hamburguesas</li>
         </ol>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
+        <div >
             Conocenos
-          </a>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"

@@ -6,7 +6,7 @@ export default function Nav() {
     <nav className={styles.nav__main}>
       <a href="/">
         <Image
-          src={"/amazing-street-burgers.png"}
+          src={"/asb-logo-IA.svg"}
           width={200}
           height={200}
           alt="Amazing Street Burguers Logo"
